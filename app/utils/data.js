@@ -20,14 +20,14 @@ const projects = [
   {
     id: 4,
     name: "EZY",
-    designed: "By David Mendonça",
+    designed: "David Mendonça",
     ref: "https://ezy-lake.vercel.app/",
     image: "/mockup3.png",
   },
   {
     id: 5,
     name: "DM. Advogados",
-    designed: "By David Mendonça",
+    designed: "David Mendonça",
     ref: "https://dmadvogados.vercel.app/",
     image: "/mockup4.png",
   },

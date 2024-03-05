@@ -22,7 +22,10 @@ export default function page() {
           <div className="w-full text-center md:text-left">
             <h1>{project.name}</h1>
             {project.hasOwnProperty("designed") ? (
-              <p>{project.designed}</p>
+              <p>
+                Designed by{" "}
+                <span className="text-blue-500">{project.designed}</span>
+              </p>
             ) : (
               ""
             )}
