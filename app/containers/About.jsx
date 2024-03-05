@@ -24,10 +24,10 @@ export default function About() {
             href={"https://www.linkedin.com/in/bruno-neves-25bb29187/"}
             target="_blank"
           >
-            <FaLinkedin size={35} />
+            <FaLinkedin size={35} className="hover:text-blue-500" />
           </Link>
           <Link href={"https://github.com/BrunoNeves214"} target="_blank">
-            <FaGithub size={35} />
+            <FaGithub size={35} className="hover:text-blue-500" />
           </Link>
         </div>
       </div>
