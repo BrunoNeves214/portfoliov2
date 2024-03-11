@@ -26,10 +26,10 @@ export default function ProjectsSlides() {
   return (
     <div>
       <Title title={"Projects"} />
-      <Link href="/projects">
+      <Link href="/projects" className="flex justify-center">
         <Image
           src={`/mockup${slide}.png`}
-          width={700}
+          width={600}
           height={500}
           alt="Projects Slide"
         />

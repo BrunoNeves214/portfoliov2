@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function About() {
   return (
-    <div className="flex flex-col md:flex-row md:justify-center items-center py-[50px] gap-2 md:gap-5">
+    <div className="flex flex-col md:flex-row md:justify-center items-center py-[35px] gap-2 md:gap-5">
       <Image
         src={"/bruno.png"}
         width={250}

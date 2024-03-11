@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function page() {
   return (
-    <div className="w-full mt-20">
+    <div className="w-full">
       {projects.map((project) => (
         <div
           key={project.id}
